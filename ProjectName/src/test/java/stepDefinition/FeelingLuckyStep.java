@@ -23,7 +23,7 @@ public class FeelingLuckyStep extends TestBase{
 		WebElement textbox=driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
 		WebElement feelingLuckybtn =driver.findElement(By.xpath("//div[@class='FPdoLc lJ9FBc']//input[@name='btnI']"));
 		
-		textbox.sendKeys("Selenium 4.16");
+		textbox.sendKeys("Selenium 4.0");
 		feelingLuckybtn.click();
 		
 	}
