@@ -27,7 +27,7 @@ public class FeelingLuckyStep extends TestBase{
 		feelingLuckybtn.click();
 		
 	}
-	
+	// comment for git
 	@When("enter the {string} for search and click I m Feeling Lucky")
 	public void enter_the_for_search_and_click_i_m_feeling_lucky(String searchText) {
 		System.out.println("lucky when");
