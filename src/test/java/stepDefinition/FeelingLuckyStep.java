@@ -44,7 +44,9 @@ public class FeelingLuckyStep extends TestBase{
 	    
 		WebElement result=driver.findElement(By.xpath("//*[name()='title']"));//span[@class='navbar-logo']
 		System.out.println("Search "+"then"+result.getText());
+
 		assertTrue(result.getText().contains("*.Selenium logo green.*")||result.getText().contains("Selenium logo green.*"));
+
 	}
 	
 
